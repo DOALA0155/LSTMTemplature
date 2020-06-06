@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
 def create_train_test_data(steps=168):
-    csv_path = "/Users/katsuyamashouki/Desktop/Programming/Python/AI/Datasets/OtherData/Temprature/temprature-2004-2013.csv"
+    csv_path = "~/Desktop/Programming/Python/AI/Datasets/OtherData/Temprature/temprature-2004-2013.csv"
     temprature = pd.read_csv(csv_path, index_col=0).values
 
     train_data = temprature[:-576]
