@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import numpy as np
 
-datasets_dir = "/Users/katsuyamashouki/Desktop/Programming/Python/AI/Datasets/OtherData/Temprature/"
+datasets_dir = "~/Desktop/Programming/Python/AI/Datasets/OtherData/Temprature/"
 data_columns = ["temprature", "precipitation", "sunshine", "wind"]
 
 def get_all_data():
